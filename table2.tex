@@ -1,0 +1,19 @@
+\begin{table}
+\centering
+\begin{tabular} {|c|c|c|c|c|}
+\hline
+pipeline & UDEEP & DEEP & WIDE & Total\\
+\hline
+makeSkyMap&0.02& 0.02& 0.02& 0.07\\
+singleFrameDriver&61.48& 110.14& 1163.02& 1334.63\\
+skyCorrection&3.99& 6.55& 51.45& 61.99\\
+mosaic&15.52& 24.67& 139.18& 179.37\\
+coaddDriver&118.63& 185.49& 803.40& 1107.53\\
+multiBandDriver&795.48& 1186.90& 4561.18&6543.57\\
+\hline
+Total node hours&995.12&1513.78&6718.25&9227.15\\
+\hline
+\end{tabular}
+\caption{Node-hours usage from Slurm accounting rounded to two decimal places}
+\label{table2}
+\end{table}
