@@ -14,12 +14,9 @@ Background information can be found in the notes of S17B HSC PDR1 reprocessing (
 The nominal ticket for the S18 PDR1 run is \jira{DM-13666}.
 The output repos are:
 \begin{enumerate}
-\item
-/datasets/hsc/repo/rerun/DM-13666/UDEEP/
-\item
-/datasets/hsc/repo/rerun/DM-13666/DEEP/
-\item
-/datasets/hsc/repo/rerun/DM-13666/WIDE/
+\item /datasets/hsc/repo/rerun/DM-13666/UDEEP/
+\item /datasets/hsc/repo/rerun/DM-13666/DEEP/
+\item /datasets/hsc/repo/rerun/DM-13666/WIDE/
 \end{enumerate}
 
 \section{Input dataset}
@@ -129,6 +126,7 @@ It should be noted that since the node-hours are rounded to two decimal places, 
 
 \section{Low-level processing details}
 This section includes low-level details that may only be of interest to the operation team.
+
 The first \texttt{singleFrameDriver} job that contributed to the output data products started on April 20, the last multiband job finished on May 5.
 
 In the beginning we attempted to run each visit as its own \texttt{singleFrameDriver}.
