@@ -47,7 +47,7 @@ Data of different layers (DEEP/UDEEP/WIDE) are processed separately.
 \section{Pipeline configurations}
 The HSC default config will be used. ccd=9 is not processed as it has bad amps and results not trustworthy even if processCcd passes.
 
-Operational configurations can be different from the stack defaults; e.g. can make \texttt{config.assembleCoadd.subregionSize} small enough so a full stack of images can fit into memory at once; a trade-off between memory and i/o but doesn't matter scientifically, as the pixels are independent. Also, pipe\_drivers jobs can be continued with the \texttt{--reuse-outputs-from all} option, rather than starting over.
+Operational configurations can be different from the stack defaults; e.g. can make \newline \texttt{config.assembleCoadd.subregionSize} small enough so a full stack of images can fit into memory at once; a trade-off between memory and i/o but doesn't matter scientifically, as the pixels are independent. Also, pipe\_drivers jobs can be continued with the \texttt{--reuse-outputs-from all} option, rather than starting over.
 
 
 \section{Reproducible Failures}
